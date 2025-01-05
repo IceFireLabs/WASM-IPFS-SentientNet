@@ -1,8 +1,8 @@
-PROG=bin/WASM-IPFS-Serverless
-SRCS=./cmd/WASM-IPFS-Serverless
+PROG=bin/WASM-IPFS-SentientNet
+SRCS=./cmd/WASM-IPFS-SentientNet
 
-INSTALL_PREFIX=/usr/local/WASM-IPFS-Serverless
-CONF_INSTALL_PREFIX=/usr/local/WASM-IPFS-Serverless
+INSTALL_PREFIX=/usr/local/WASM-IPFS-SentientNet
+CONF_INSTALL_PREFIX=/usr/local/WASM-IPFS-SentientNet
 
 # git commit hash
 COMMIT_HASH=$(shell git rev-parse --short HEAD || echo "GitNotFound")

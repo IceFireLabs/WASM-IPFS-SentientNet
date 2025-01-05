@@ -1,80 +1,82 @@
-# WASM-IPFS-Serverless: Decentralized Computing Made Simple
+# WASM-IPFS-SentientNet: Decentralized Computing and AI Agent Made Simple
 
-![build](https://github.com/BlockCraftsman/WASM-IPFS-Serverless/actions/workflows/build.yml/badge.svg)
-![test](https://github.com/BlockCraftsman/WASM-IPFS-Serverless/actions/workflows/test.yml/badge.svg)
+![build](https://github.com/IceFireLabs/WASM-IPFS-SentientNet/actions/workflows/build.yml/badge.svg)
+![test](https://github.com/IceFireLabs/WASM-IPFS-SentientNet/actions/workflows/test.yml/badge.svg)
 
-WASM-IPFS-Serverless is an innovative framework that seamlessly integrates WebAssembly computing with IPFS storage and retrieval, offering a robust serverless solution for decentralized applications (dApps). Empowering developers with cutting-edge technologies, this project revolutionizes how decentralized computing is implemented and utilized.
+**WASM-IPFS-SentientNet** is an innovative framework that seamlessly integrates **WebAssembly (WASM) computing**, **IPFS storage**, and **AI Agent capabilities** to deliver a robust, serverless solution for decentralized applications (dApps). Designed to empower developers with cutting-edge technologies, this project revolutionizes decentralized computing by combining the efficiency of WASM, the reliability of IPFS, and the intelligence of AI Agents.
 
 ![image](https://github.com/user-attachments/assets/bef50047-79b9-4cba-a5db-75b4571917da)
 
-[wasm-ipfs-serverless runtime.webm](https://github.com/user-attachments/assets/974482f1-0a3d-4848-a532-cb6dfb5c834f)
+[WASM-IPFS-SentientNet runtime.webm](https://github.com/user-attachments/assets/974482f1-0a3d-4848-a532-cb6dfb5c834f)
 
+---
 
 ## Key Features and Components
 
-- **WebAssembly Computing**: Harness the power of WebAssembly for efficient and scalable computation within decentralized applications.
-- **IPFS Integration**: Utilize IPFS for secure and decentralized storage and retrieval of data, ensuring data integrity and availability.
-- **Serverless Architecture**: Embrace a serverless paradigm for flexible and cost-effective deployment of dApps, without the complexities of managing traditional servers.
-- **Technical Support**: Benefit from seamless integration with Filecoin-Lassie for IPFS file retrieval, Filecoin-IPLD-Go-Car for IPFS Car file extraction, Extism for wasm plug-in mechanism, wazero for wasm virtual machine, and Fiber for high-performance HTTP server capabilities.
+- **WebAssembly Computing**: Harness the power of WebAssembly for efficient, scalable, and portable computation within decentralized applications.
+- **IPFS Integration**: Utilize IPFS for secure, decentralized storage and retrieval of data, ensuring data integrity and availability.
+- **AI Agent Capabilities**: Empower your applications with intelligent decision-making, automation, and multi-agent control powered by AI.
+- **Serverless Architecture**: Embrace a serverless paradigm for flexible, cost-effective deployment of dApps, eliminating the complexities of traditional server management.
+- **Technical Support**: Benefit from seamless integration with **Filecoin-Lassie** for IPFS file retrieval, **Filecoin-IPLD-Go-Car** for IPFS Car file extraction, **Extism** for WASM plugin management, **wazero** for WASM virtual machine, and **Fiber** for high-performance HTTP server capabilities.
 
-## How it's Made
+---
 
-Here's a breakdown of how WASM-IPFS-Serverless was built, including the technologies used, their integration, and any notable aspects:
+## How It's Made
+
+Here's a breakdown of how **WASM-IPFS-SentientNet** was built, including the technologies used, their integration, and notable aspects:
 
 ### WebAssembly (WASM) Computing
-
 - **Technology**: Leveraged WebAssembly for its efficient and portable bytecode format, enabling high-performance computing within the serverless environment.
 - **Integration**: Integrated WebAssembly runtime libraries and tools to compile and execute WASM modules seamlessly within the serverless framework.
 
 ### IPFS Integration
-
 - **Technology**: Utilized IPFS (InterPlanetary File System) for decentralized storage and retrieval of data.
-- **Integration**: Integrated IPFS libraries and APIs to interact with the IPFS network, allowing for secure and decentralized data storage and retrieval.
+- **Integration**: Integrated IPFS libraries and APIs to interact with the IPFS network, ensuring secure and decentralized data storage and retrieval.
+
+### AI Agent Capabilities
+- **Technology**: Integrated advanced AI frameworks to enable intelligent decision-making, automation, and multi-agent control.
+- **Integration**: Combined AI Agent capabilities with WASM and IPFS to create a powerful, intelligent, and decentralized computing ecosystem.
 
 ### Partner Technologies and Benefits
-
 - **Filecoin-Lassie**: Leveraged for IPFS file retrieval, enhancing data access capabilities within the serverless environment.
 - **Filecoin-IPLD-Go-Car**: Used for IPFS Car file extraction, enabling efficient handling of IPFS Car files within the project.
-- **Extism**: Integrated for wasm plug-in mechanism, facilitating extensibility and customization of the serverless environment through wasm plugins.
-- **wazero**: Utilized for wasm virtual machine capabilities, ensuring efficient execution of WebAssembly code within the serverless framework.
+- **Extism**: Integrated for WASM plugin management, facilitating extensibility and customization of the serverless environment through WASM plugins.
+- **wazero**: Utilized for WASM virtual machine capabilities, ensuring efficient execution of WebAssembly code within the serverless framework.
 - **Fiber**: Integrated for high-performance HTTP server functionalities, enhancing network communication and HTTP request handling within the serverless environment.
 
 ### Notable Aspects
-
 - **Dynamic IPFS Integration**: Dynamically integrated with IPFS using Filecoin-Lassie and IPFS CID references in the configuration, allowing for seamless interaction with IPFS resources.
+- **AI-Driven Automation**: Enabled intelligent automation and decision-making through AI Agent integration, making decentralized computing smarter and more efficient.
 
-Overall, WASM-IPFS-Serverless aims to improve the convenience of decentralized and edge trusted computing, and aims to provide a powerful and efficient runtime framework for decentralized applications.
+---
 
 ## Quick Start
 
 ### 1. Clone the Repository
-
 ```bash
-git clone https://github.com/BlockCraftsman/WASM-IPFS-Serverless.git
+git clone https://github.com/IceFireLabs/WASM-IPFS-SentientNet.git
 ```
 
 ### 2. Build the Project
-
 ```bash
-cd WASM-IPFS-Serverless
+cd WASM-IPFS-SentientNet
 make
 ```
 
 ### 3. Adjust Configuration File
-
 ```yaml
-app-type: "WASM-IPFS-Serverless-WORKER"
+app-type: "WASM-IPFS-SentientNet-WORKER"
 
-# The network model of HTTP handle ,NetPoll(gin) RAWEPOLL(fiber)
+# The network model of HTTP handle: NetPoll (gin) or RAWEPOLL (fiber)
 net-model: "NETPOLL"
 
 # Process inflow traffic network configuration
 NetWork:
-  bind-network: "TCP" #Network transport layer type: TCP | UDP 
-  protocol-type: "HTTP" #Application layer network protocol：HTTP | RESP | QUIC
-  bind-address: "127.0.0.1:28080" #Network listening address
+  bind-network: "TCP" # Network transport layer type: TCP | UDP
+  protocol-type: "HTTP" # Application layer network protocol: HTTP | RESP | QUIC
+  bind-address: "127.0.0.1:28080" # Network listening address
 
-#Runtime debug option
+# Runtime debug option
 debug:
   enable: false
   pprof-bind-addr: "127.0.0.1:19090"
@@ -88,31 +90,31 @@ wasm-modules-ipfs:
   enable: true
   lassie-net:
     scheme: "http"
-    host: "38.45.67.159" #Filecoin Lassie daemon bind IP, This is a temporarily available address. When it is unavailable, please visit to install and run daemon. (https://github.com/filecoin-project/lassie?tab=readme-ov-file#http-api)
-    port: 62156 #Filecoin Lassie daemon bind Port
+    host: "38.45.67.159" # Filecoin Lassie daemon bind IP (temporary address; visit https://github.com/filecoin-project/lassie for setup)
+    port: 62156 # Filecoin Lassie daemon bind Port
   cids:
-    - "QmeDsaLTc8dAfPrQ5duC4j5KqPdGbcinEo5htDqSgU8u8Z" #wasm IPFS CID
+    - "QmeDsaLTc8dAfPrQ5duC4j5KqPdGbcinEo5htDqSgU8u8Z" # WASM IPFS CID
 ```
 
 ### 4. Load Configuration and Run
-
-```shell
-WASM-IPFS-Serverless -c wis_worker.yaml
+```bash
+WASM-IPFS-SentientNet -c wis_worker.yaml
 ```
 
-### 5. Testing the IPFS Version of WASM Serverless
+### 5. Test the IPFS Version of WASM Serverless
+```bash
+curl -d "WASM-IPFS-SentientNet" "http://localhost:28080"
 
-```shell
-$ curl -d "WASM-IPFS-ServerLess" "http://localhost:28080"
-
-👋 Hello WASM-IPFS-ServerLess%
+👋 Hello WASM-IPFS-SentientNet%
 ```
+
+---
 
 ## Performance Testing
 
-```shell
-$ hey -n 1000000 -c 50 -m POST \ 
--d 'wasm-ipfs-serverless' \
+```bash
+hey -n 1000000 -c 50 -m POST \
+-d 'WASM-IPFS-SentientNet' \
 "http://127.0.0.1:28080"
 
 Summary:
@@ -158,9 +160,11 @@ Status code distribution:
   [200] 1000000 responses
 ```
 
+---
+
 ## Contributing
 
-We welcome contributions from the community. To contribute to this project:
+We welcome contributions from the community! To contribute to **WASM-IPFS-SentientNet**:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature`).
@@ -168,11 +172,18 @@ We welcome contributions from the community. To contribute to this project:
 4. Push your changes to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
 
+---
+
 ## License
 
-This library is dual-licensed under Apache 2.0 and MIT terms.
+This library is dual-licensed under **Apache 2.0** and **MIT** terms.
+
+---
 
 ## ❤️ Thanks for Technical Support ❤️
 
-1. [**Filecoin-Lassie**](https://github.com/filecoin-project/lassie/): Support IPFS file retrieval
-2. [**Filecoin-IPLD-Go-Car**](https://github.com/ipld/go-car): Support IPFS Car file extraction
+1. [**Filecoin-Lassie**](https://github.com/filecoin-project/lassie/): Support IPFS file retrieval.
+2. [**Filecoin-IPLD-Go-Car**](https://github.com/ipld/go-car): Support IPFS Car file extraction.
+3. [**Extism**](https://extism.org/): WASM plugin management.
+4. [**wazero**](https://wazero.io/): WASM virtual machine.
+5. [**Fiber**](https://gofiber.io/): High-performance HTTP server.

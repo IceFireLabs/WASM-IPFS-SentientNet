@@ -1,4 +1,4 @@
-app-type: "WASM-IPFS-Serverless-WORKER"
+app-type: "WASM-IPFS-SentientNet-WORKER"
 
 # The network model of HTTP handle ,NetPoll(gin) RAWEPOLL(fiber)
 net-model: "NETPOLL"
