@@ -5,10 +5,7 @@
 
 **WASM-IPFS-SentientNet** is an innovative framework that seamlessly integrates **WebAssembly (WASM) computing**, **IPFS storage**, and **AI Agent capabilities** to deliver a robust, serverless solution for decentralized applications (dApps). Designed to empower developers with cutting-edge technologies, this project revolutionizes decentralized computing by combining the efficiency of WASM, the reliability of IPFS, and the intelligence of AI Agents.
 
-![image](https://github.com/user-attachments/assets/bef50047-79b9-4cba-a5db-75b4571917da)
-
-[WASM-IPFS-SentientNet runtime.webm](https://github.com/user-attachments/assets/974482f1-0a3d-4848-a532-cb6dfb5c834f)
-
+![image](https://github.com/user-attachments/assets/df18291c-8075-43c4-bf59-1d5d83f6cb49)
 ---
 
 ## Key Features and Components
