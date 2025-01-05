@@ -39,7 +39,7 @@ jobs:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: WASM-IPFS-Serverless-${{ matrix.platform }}
+        name: WASM-IPFS-SentientNet-${{ matrix.platform }}
         path: |
-          bin/WASM-IPFS-Serverless-${{ matrix.platform }}*
-          bin/WASM-IPFS-Serverless-${{ matrix.platform }}.exe
+          bin/WASM-IPFS-SentientNet-${{ matrix.platform }}*
+          bin/WASM-IPFS-SentientNet-${{ matrix.platform }}.exe

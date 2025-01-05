@@ -5,7 +5,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/BlockCraftsman/WASM-IPFS-Serverless/pkg/confer"
+	"github.com/IceFireLabs/WASM-IPFS-SentientNet/pkg/confer"
 	"github.com/gofiber/fiber/v2"
 )
 

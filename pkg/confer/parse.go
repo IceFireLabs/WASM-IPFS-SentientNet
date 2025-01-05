@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	utils "github.com/BlockCraftsman/WASM-IPFS-Serverless/utils"
+	utils "github.com/IceFireLabs/WASM-IPFS-SentientNet/utils"
 	"gopkg.in/yaml.v2"
 )
 

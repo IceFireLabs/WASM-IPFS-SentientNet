@@ -1,4 +1,4 @@
-module github.com/BlockCraftsman/WASM-IPFS-Serverless
+module github.com/IceFireLabs/WASM-IPFS-SentientNet
 
 go 1.22
 

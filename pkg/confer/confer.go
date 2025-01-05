@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os"
 
-	utils "github.com/BlockCraftsman/WASM-IPFS-Serverless/utils"
+	utils "github.com/IceFireLabs/WASM-IPFS-SentientNet/utils"
 	"github.com/go-chassis/go-archaius"
 )
 
