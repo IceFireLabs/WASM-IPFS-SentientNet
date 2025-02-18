@@ -1,8 +1,7 @@
 module github.com/IceFireLabs/WASM-IPFS-SentientNet
 
 go 1.22
-
-toolchain go1.22.3
+toolchain go1.22.5
 
 require (
 	github.com/extism/go-sdk v1.7.0
@@ -15,7 +14,7 @@ require (
 	github.com/ipld/go-ipld-prime v0.21.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.10.0
-	github.com/tetratelabs/wazero v1.8.2
+	github.com/tetratelabs/wazero v1.9.0
 	github.com/urfave/cli v1.22.16
 	go.uber.org/automaxprocs v1.6.0
 	gopkg.in/yaml.v2 v2.4.0
