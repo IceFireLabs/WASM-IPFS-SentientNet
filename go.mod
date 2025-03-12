@@ -1,15 +1,14 @@
 module github.com/IceFireLabs/WASM-IPFS-SentientNet
 
 go 1.22
-
-toolchain go1.22.3
+toolchain go1.23.7
 
 require (
 	github.com/extism/go-sdk v1.7.0
 	github.com/go-chassis/go-archaius v1.5.6
 	github.com/gofiber/fiber/v2 v2.52.6
 	github.com/ipfs/go-cid v0.5.0
-	github.com/ipfs/go-unixfsnode v1.9.2
+	github.com/ipfs/go-unixfsnode v1.10.0
 	github.com/ipld/go-car/v2 v2.14.2
 	github.com/ipld/go-codec-dagpb v1.7.0
 	github.com/ipld/go-ipld-prime v0.21.0
@@ -37,7 +36,7 @@ require (
 	github.com/ipfs/go-ipld-cbor v0.1.0 // indirect
 	github.com/ipfs/go-ipld-format v0.6.0 // indirect
 	github.com/klauspost/compress v1.17.9 // indirect
-	github.com/klauspost/cpuid/v2 v2.2.8 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.9 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
@@ -64,7 +63,7 @@ require (
 	github.com/whyrusleeping/cbor-gen v0.1.2 // indirect
 	go.opentelemetry.io/proto/otlp v1.3.1 // indirect
 	golang.org/x/crypto v0.31.0 // indirect
-	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
+	golang.org/x/exp v0.0.0-20241217172543-b2144cdd0a67 // indirect
 	golang.org/x/sys v0.28.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	google.golang.org/protobuf v1.36.5 // indirect
