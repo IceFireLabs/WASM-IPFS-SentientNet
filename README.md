@@ -1,11 +1,12 @@
-# WASM-IPFS-SentientNet: Decentralized Computing and AI Agent Made Simple
+# dANP-Engine
 
-![build](https://github.com/IceFireLabs/WASM-IPFS-SentientNet/actions/workflows/build.yml/badge.svg)
-![test](https://github.com/IceFireLabs/WASM-IPFS-SentientNet/actions/workflows/test.yml/badge.svg)
+![build](https://github.com/IceFireLabs/dANP-Engine/actions/workflows/build.yml/badge.svg)
+![test](https://github.com/IceFireLabs/dANP-Engine/actions/workflows/test.yml/badge.svg)
 
-**WASM-IPFS-SentientNet** is an innovative framework that seamlessly integrates **WebAssembly (WASM) computing**, **IPFS storage**, and **AI Agent capabilities** to deliver a robust, serverless solution for decentralized applications (dApps). Designed to empower developers with cutting-edge technologies, this project revolutionizes decentralized computing by combining the efficiency of WASM, the reliability of IPFS, and the intelligence of AI Agents.
+**dANP-Engine** is an innovative framework that seamlessly integrates **WebAssembly (WASM) computing**, **IPFS storage**, and **AI Agent capabilities** to deliver a robust, serverless solution for decentralized applications (dApps). Designed to empower developers with cutting-edge technologies, this project revolutionizes decentralized computing by combining the efficiency of WASM, the reliability of IPFS, and the intelligence of AI Agents.
 
-![image](https://github.com/user-attachments/assets/df18291c-8075-43c4-bf59-1d5d83f6cb49)
+![image](https://github.com/user-attachments/assets/73a9152a-68d7-4965-b931-372a3de6508f)
+
 ---
 
 ## Key Features and Components
@@ -21,7 +22,7 @@
 
 ```mermaid
 graph LR
-    %% WASM-IPFS-SentientNet Architecture Diagram
+    %% dANP-Engine Architecture Diagram
     description[IPFS Trusted Storage + WASM Edge Computing + AI Agents]
 
     %% IPFS Storage Layer
@@ -98,7 +99,7 @@ The architecture consists of four main layers:
 
 ## How It's Made
 
-Here's a breakdown of how **WASM-IPFS-SentientNet** was built, including the technologies used, their integration, and notable aspects:
+Here's a breakdown of how **dANP-Engine** was built, including the technologies used, their integration, and notable aspects:
 
 ### WebAssembly (WASM) Computing
 - **Technology**: Leveraged WebAssembly for its efficient and portable bytecode format, enabling high-performance computing within the serverless environment.
@@ -129,18 +130,18 @@ Here's a breakdown of how **WASM-IPFS-SentientNet** was built, including the tec
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/IceFireLabs/WASM-IPFS-SentientNet.git
+git clone https://github.com/IceFireLabs/dANP-Engine.git
 ```
 
 ### 2. Build the Project
 ```bash
-cd WASM-IPFS-SentientNet
+cd dANP-Engine
 make
 ```
 
 ### 3. Adjust Configuration File
 ```yaml
-app-type: "WASM-IPFS-SentientNet-WORKER"
+app-type: "dANP-Engine-WORKER"
 
 # The network model of HTTP handle: NetPoll (gin) or RAWEPOLL (fiber)
 net-model: "NETPOLL"
@@ -173,14 +174,14 @@ wasm-modules-ipfs:
 
 ### 4. Load Configuration and Run
 ```bash
-WASM-IPFS-SentientNet -c wis_worker.yaml
+dANP-Engine -c wis_worker.yaml
 ```
 
 ### 5. Test the IPFS Version of WASM Serverless
 ```bash
-curl -d "WASM-IPFS-SentientNet" "http://localhost:28080"
+curl -d "dANP-Engine" "http://localhost:28080"
 
-👋 Hello WASM-IPFS-SentientNet%
+👋 Hello dANP-Engine%
 ```
 
 ---
@@ -189,7 +190,7 @@ curl -d "WASM-IPFS-SentientNet" "http://localhost:28080"
 
 ```bash
 hey -n 1000000 -c 50 -m POST \
--d 'WASM-IPFS-SentientNet' \
+-d 'dANP-Engine' \
 "http://127.0.0.1:28080"
 
 Summary:
@@ -239,7 +240,7 @@ Status code distribution:
 
 ## Contributing
 
-We welcome contributions from the community! To contribute to **WASM-IPFS-SentientNet**:
+We welcome contributions from the community! To contribute to **dANP-Engine**:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature`).
