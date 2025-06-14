@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os"
 
-	utils "github.com/IceFireLabs/WASM-IPFS-SentientNet/utils"
+	utils "github.com/IceFireLabs/dANP-Engine/utils"
 	"github.com/go-chassis/go-archaius"
 )
 

@@ -39,7 +39,7 @@ jobs:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: WASM-IPFS-SentientNet-${{ matrix.platform }}
+        name: dANP-Engine-${{ matrix.platform }}
         path: |
-          bin/WASM-IPFS-SentientNet-${{ matrix.platform }}*
-          bin/WASM-IPFS-SentientNet-${{ matrix.platform }}.exe
+          bin/dANP-Engine-${{ matrix.platform }}*
+          bin/dANP-Engine-${{ matrix.platform }}.exe

@@ -1,4 +1,4 @@
-module github.com/IceFireLabs/WASM-IPFS-SentientNet
+module github.com/IceFireLabs/dANP-Engine
 
 go 1.23.8
 
