@@ -1,9 +1,9 @@
-# dANP-Engine
+# DANP-Engine
 
-![build](https://github.com/IceFireLabs/dANP-Engine/actions/workflows/build.yml/badge.svg)
-![test](https://github.com/IceFireLabs/dANP-Engine/actions/workflows/test.yml/badge.svg)
+![build](https://github.com/IceFireLabs/DANP-Engine/actions/workflows/build.yml/badge.svg)
+![test](https://github.com/IceFireLabs/DANP-Engine/actions/workflows/test.yml/badge.svg)
 
-**dANP-Engine** is an innovative framework that seamlessly integrates **WebAssembly (WASM) computing**, **IPFS storage**, and **AI Agent capabilities** to deliver a robust, serverless solution for decentralized applications (dApps). Designed to empower developers with cutting-edge technologies, this project revolutionizes decentralized computing by combining the efficiency of WASM, the reliability of IPFS, and the intelligence of AI Agents.
+**DANP-Engine** is an innovative framework that seamlessly integrates **WebAssembly (WASM) computing**, **IPFS storage**, and **AI Agent capabilities** to deliver a robust, serverless solution for decentralized applications (dApps). Designed to empower developers with cutting-edge technologies, this project revolutionizes decentralized computing by combining the efficiency of WASM, the reliability of IPFS, and the intelligence of AI Agents.
 
 ![image](https://github.com/user-attachments/assets/73a9152a-68d7-4965-b931-372a3de6508f)
 
@@ -22,7 +22,7 @@
 
 ```mermaid
 graph LR
-    %% dANP-Engine Architecture Diagram
+    %% DANP-Engine Architecture Diagram
     description[IPFS Trusted Storage + WASM Edge Computing + AI Agents]
 
     %% IPFS Storage Layer
@@ -99,7 +99,7 @@ The architecture consists of four main layers:
 
 ## How It's Made
 
-Here's a breakdown of how **dANP-Engine** was built, including the technologies used, their integration, and notable aspects:
+Here's a breakdown of how **DANP-Engine** was built, including the technologies used, their integration, and notable aspects:
 
 ### WebAssembly (WASM) Computing
 - **Technology**: Leveraged WebAssembly for its efficient and portable bytecode format, enabling high-performance computing within the serverless environment.
@@ -130,18 +130,18 @@ Here's a breakdown of how **dANP-Engine** was built, including the technologies 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/IceFireLabs/dANP-Engine.git
+git clone https://github.com/IceFireLabs/DANP-Engine.git
 ```
 
 ### 2. Build the Project
 ```bash
-cd dANP-Engine
+cd DANP-Engine
 make
 ```
 
 ### 3. Adjust Configuration File
 ```yaml
-app-type: "dANP-Engine-WORKER"
+app-type: "DANP-Engine-WORKER"
 
 # The network model of HTTP handle: NetPoll (gin) or RAWEPOLL (fiber)
 net-model: "NETPOLL"
@@ -174,14 +174,14 @@ wasm-modules-ipfs:
 
 ### 4. Load Configuration and Run
 ```bash
-dANP-Engine -c wis_worker.yaml
+DANP-Engine -c wis_worker.yaml
 ```
 
 ### 5. Test the IPFS Version of WASM Serverless
 ```bash
-curl -d "dANP-Engine" "http://localhost:28080"
+curl -d "DANP-Engine" "http://localhost:28080"
 
-👋 Hello dANP-Engine%
+👋 Hello DANP-Engine%
 ```
 
 ---
@@ -190,7 +190,7 @@ curl -d "dANP-Engine" "http://localhost:28080"
 
 ```bash
 hey -n 1000000 -c 50 -m POST \
--d 'dANP-Engine' \
+-d 'DANP-Engine' \
 "http://127.0.0.1:28080"
 
 Summary:
@@ -240,7 +240,7 @@ Status code distribution:
 
 ## Contributing
 
-We welcome contributions from the community! To contribute to **dANP-Engine**:
+We welcome contributions from the community! To contribute to **DANP-Engine**:
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/your-feature`).

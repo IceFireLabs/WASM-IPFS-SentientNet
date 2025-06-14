@@ -1,4 +1,4 @@
-app-type: "dANP-Engine-WORKER"
+app-type: "DANP-Engine-WORKER"
 
 # The network model of HTTP handle ,NetPoll(gin) RAWEPOLL(fiber)
 net-model: "NETPOLL"

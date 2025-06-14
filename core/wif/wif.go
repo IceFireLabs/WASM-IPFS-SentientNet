@@ -5,7 +5,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/IceFireLabs/dANP-Engine/pkg/confer"
+	"github.com/IceFireLabs/DANP-Engine/pkg/confer"
 	"github.com/gofiber/fiber/v2"
 )
 

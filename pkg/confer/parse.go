@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	utils "github.com/IceFireLabs/dANP-Engine/utils"
+	utils "github.com/IceFireLabs/DANP-Engine/utils"
 	"gopkg.in/yaml.v2"
 )
 

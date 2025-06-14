@@ -39,7 +39,7 @@ jobs:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: dANP-Engine-${{ matrix.platform }}
+        name: DANP-Engine-${{ matrix.platform }}
         path: |
-          bin/dANP-Engine-${{ matrix.platform }}*
-          bin/dANP-Engine-${{ matrix.platform }}.exe
+          bin/DANP-Engine-${{ matrix.platform }}*
+          bin/DANP-Engine-${{ matrix.platform }}.exe

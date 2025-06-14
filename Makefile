@@ -1,8 +1,8 @@
-PROG=bin/dANP-Engine
-SRCS=./cmd/dANP-Engine
+PROG=bin/DANP-Engine
+SRCS=./cmd/DANP-Engine
 
-INSTALL_PREFIX=/usr/local/dANP-Engine
-CONF_INSTALL_PREFIX=/usr/local/dANP-Engine
+INSTALL_PREFIX=/usr/local/DANP-Engine
+CONF_INSTALL_PREFIX=/usr/local/DANP-Engine
 
 # git commit hash
 COMMIT_HASH=$(shell git rev-parse --short HEAD || echo "GitNotFound")
