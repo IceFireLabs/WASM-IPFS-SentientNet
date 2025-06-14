@@ -1,9 +1,9 @@
 module github.com/IceFireLabs/dANP-Engine
 
-go 1.23.8
+go 1.24.3
 
 require (
-	github.com/extism/go-sdk v1.7.0
+	github.com/extism/go-sdk v1.7.1
 	github.com/go-chassis/go-archaius v1.5.6
 	github.com/gofiber/fiber/v2 v2.52.8
 	github.com/ipfs/go-cid v0.5.0
@@ -13,7 +13,7 @@ require (
 	github.com/ipld/go-ipld-prime v0.21.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.10.0
-	github.com/tetratelabs/wazero v1.8.2
+	github.com/tetratelabs/wazero v1.9.0
 	github.com/urfave/cli v1.22.16
 	go.uber.org/automaxprocs v1.6.0
 	gopkg.in/yaml.v2 v2.4.0
