@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	utils "github.com/IceFireLabs/WASM-IPFS-SentientNet/utils"
+	utils "github.com/IceFireLabs/dANP-Engine/utils"
 	"gopkg.in/yaml.v2"
 )
 

@@ -1,8 +1,8 @@
-PROG=bin/WASM-IPFS-SentientNet
-SRCS=./cmd/WASM-IPFS-SentientNet
+PROG=bin/dANP-Engine
+SRCS=./cmd/dANP-Engine
 
-INSTALL_PREFIX=/usr/local/WASM-IPFS-SentientNet
-CONF_INSTALL_PREFIX=/usr/local/WASM-IPFS-SentientNet
+INSTALL_PREFIX=/usr/local/dANP-Engine
+CONF_INSTALL_PREFIX=/usr/local/dANP-Engine
 
 # git commit hash
 COMMIT_HASH=$(shell git rev-parse --short HEAD || echo "GitNotFound")
