@@ -5,7 +5,7 @@
 
 **DANP-Engine** is an innovative framework that seamlessly integrates **WebAssembly (WASM) computing**, **IPFS storage**, and **AI Agent capabilities** to deliver a robust, serverless solution for decentralized applications (dApps). Designed to empower developers with cutting-edge technologies, this project revolutionizes decentralized computing by combining the efficiency of WASM, the reliability of IPFS, and the intelligence of AI Agents.
 
-![image](https://github.com/user-attachments/assets/73a9152a-68d7-4965-b931-372a3de6508f)
+![image](https://github.com/user-attachments/assets/45bf263a-1624-49a5-b113-8d7e430a4d18)
 
 ---
 
