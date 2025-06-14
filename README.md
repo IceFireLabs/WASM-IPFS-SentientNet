@@ -17,6 +17,84 @@
 - **Technical Support**: Benefit from seamless integration with **Filecoin-Lassie** for IPFS file retrieval, **Filecoin-IPLD-Go-Car** for IPFS Car file extraction, **Extism** for WASM plugin management, **wazero** for WASM virtual machine, and **Fiber** for high-performance HTTP server capabilities.
 
 ---
+## System Architecture
+
+```mermaid
+graph LR
+    %% WASM-IPFS-SentientNet Architecture Diagram
+    description[IPFS Trusted Storage + WASM Edge Computing + AI Agents]
+
+    %% IPFS Storage Layer
+    subgraph ipfs[IPFS Storage Layer]
+        direction TB
+        ipfs_node1[IPFS Node]
+        ipfs_node2[IPFS Node]
+        ipfs_node3[IPFS Node]
+        ipfs_node1 <--> ipfs_node2
+        ipfs_node2 <--> ipfs_node3
+    end
+
+    %% WASM Runtime Layer
+    subgraph runtime[WASM Runtime Layer]
+        direction LR
+        
+        subgraph node1[Runtime Node 1]
+            wasm1[WASM Engine]
+            agent1[AI Agent]
+            wasm1 --> agent1
+        end
+        
+        subgraph node2[Runtime Node 2]
+            wasm2[WASM Engine]
+            agent2[AI Agent]
+            wasm2 --> agent2
+        end
+        
+        subgraph node3[Runtime Node 3]
+            wasm3[WASM Engine]
+            agent3[AI Agent]
+            wasm3 --> agent3
+        end
+    end
+
+    %% Application Layer
+    subgraph apps[Application Layer]
+        direction TB
+        edge_ai[Edge AI]
+        trusted_comp[Trusted Computing]
+        edge_func[Edge Functions]
+    end
+
+    %% Services Layer
+    subgraph services[Services]
+        direction LR
+        compute[Compute Service]
+        storage[Storage Service]
+        network[Network Service]
+    end
+
+    %% Connections
+    ipfs --> runtime
+    node1 --> apps
+    node2 --> apps
+    node3 --> apps
+    apps --> services
+    
+    %% Styling
+    style ipfs fill:#e3f9ff,stroke:#333
+    style runtime fill:#fff2e6,stroke:#333
+    style apps fill:#e6ffe6,stroke:#333
+    style services fill:#f9e6ff,stroke:#333
+    
+    classDef tech fill:#f8f9fa,stroke:#333,stroke-width:1px;
+    class description,ipfs_node1,ipfs_node2,ipfs_node3,wasm1,wasm2,wasm3,agent1,agent2,agent3,edge_ai,trusted_comp,edge_func,compute,storage,network tech
+```
+The architecture consists of four main layers:
+
+* IPFS Storage Layer: Decentralized storage network that provides content-addressable storage for WASM modules and application data
+* WASM Runtime Layer: Distributed execution environment where WASM modules run with AI Agent capabilities
+* Application Layer: Core functionalities exposed to developers including Edge AI, Trusted Computing and Edge Functions
+* Services Layer: Final output services that applications can consume (Compute, Storage, Network)
 
 ## How It's Made
 
