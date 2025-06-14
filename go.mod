@@ -5,7 +5,7 @@ go 1.23.8
 require (
 	github.com/extism/go-sdk v1.7.0
 	github.com/go-chassis/go-archaius v1.5.6
-	github.com/gofiber/fiber/v2 v2.52.6
+	github.com/gofiber/fiber/v2 v2.52.8
 	github.com/ipfs/go-cid v0.5.0
 	github.com/ipfs/go-unixfsnode v1.10.1
 	github.com/ipld/go-car/v2 v2.14.3
